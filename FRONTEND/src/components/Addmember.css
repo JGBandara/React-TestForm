@@ -1,0 +1,66 @@
+.register {
+    width: 400px;
+    height:500px;
+    background: rgb(245, 247, 253);
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    
+    margin: auto;
+    margin-top: 80px;
+    border-bottom-width: 2px;
+    padding: 20px 20px 14px 20px ;
+    border-radius: 30px;
+    justify-content: center;
+    box-shadow: 2px 2px rgba(120, 131, 231, 0.904), 5px 5px rgba(91, 151, 224, 0.363), 9px 9px rgba(184, 222, 236, 0.918);
+}
+.register > label{
+    align-items: flex-start;
+    text-align: left;
+}
+.register > h3{
+    text-align: center;
+    color: #540ea3;
+}
+
+.register > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.butn > button {
+    align-items: center;
+
+    
+    background-image: linear-gradient(144deg,#841992, #5c47e6 50%,#00DDEB);
+    border: 1px solid #1877f2;
+    font-family:sans-serif;
+    color: #fff;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    line-height: 1em;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+    width: 350px;
+
+    
+}
